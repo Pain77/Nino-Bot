@@ -19,9 +19,7 @@
 </div>
 
 
-
-
-<h1 align="center">ɴɪɴᴏ : ᴀ ꜰᴜʟʟʏ ᴍᴏᴅᴜʟᴀʀ ᴀɴᴅ ᴇꜰꜰɪᴄɪᴇɴᴛ ʙᴏᴛ! <img src="https://c.tenor.com/uPorZsWSDUoAAAAC/taehyung-bts.gif" style="border-radius:5;" width="40px" alt=""><br></h1>
+<h1 align="center">ɴɪɴᴏ : ᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ! <img src="https://c.tenor.com/uPorZsWSDUoAAAAC/taehyung-bts.gif" style="border-radius:5;" width="40px" alt=""><br></h1>
 <p align="center">
   <a href="https://github.com/Pain77"><img title="Author" src="https://img.shields.io/badge/Author-P--A--I--N-blue.svg?style=for-the-badge&logo=github" /></a>
 </p>
