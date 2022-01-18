@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="https://c.tenor.com/ttJGTNKzeeMAAAAC/medusa-medusa-rider.gif" border="0"></a>
+  <img src="https://c.tenor.com/qN1saT1qxW8AAAAC/go-toubun-no-hanayome-nakano-nino.gif" border="0"></a>
   
   <p align="center">
   <a href="https://github.com/Pain77"><img title="Author" src="https://img.shields.io/badge/Author-P--A--I--N-blue.svg?style=for-the-badge&logo=github" /></a>
