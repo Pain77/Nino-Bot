@@ -1,8 +1,12 @@
 <div align="center">
 
-  <img src="https://c.tenor.com/qN1saT1qxW8AAAAC/go-toubun-no-hanayome-nakano-nino.gif" border="0"></a>
+  <img src="https://c.tenor.com/Hr1IdMzL6tIAAAAC/badass-girl-lalisa.gif" border="0"></a>
+
+<div align="center">
+<img alt="GitHub" src="https://img.shields.io/badge/LISA%20BOT-25D32?style=for-the-badge&logoColor=darkgreen"/>
+<br><br>
   
-  <p align="center">
+<p align="center">
   <a href="https://github.com/Pain77"><img title="Author" src="https://img.shields.io/badge/Author-P--A--I--N-blue.svg?style=for-the-badge&logo=github" /></a>
 </p>
   
@@ -15,42 +19,45 @@
   </a>
 </p>
 
+ 
+</div>
 
-<h1 align="center">ɴɪɴᴏ : ᴀ ꜰᴜʟʟʏ ᴍᴏᴅᴜʟᴀʀ ᴀɴᴅ ᴇꜰꜰɪᴄɪᴇɴᴛ ʙᴏᴛ! <img src="https://64.media.tumblr.com/6353bc254285f22abbeaf5653a2e133d/0a4aca37e117c27e-fe/s540x810/e1a81a3d48c2adbf0c3c5502bb95cfa24bbfff6e.gifv" style="border-radius:5;" width="40px" alt=""><br></h1>
+
+
+
+
+### Install ⬇️
+
+```bash
+> git clone https://github.com/Pain77/Lisa-Bot
+> cd Lisa-Bot
+> npm i
+```
+### Deploy
+  
+  [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/Pain77/Lisa-Bot/blob/main)
+
+### For termux users before running the above command write this command
+```bash
+> apt-get update
+> apt-get upgrade
+> apt-get install -y nodejs git
+```
+
+#### Change `config.json` 
+### Start ✅
+
+```bash
+> npm start [session name]
+```
+after start it you need to scan the qr
+#### Session name is optional
+### Contact me
+
 <p align="center">
+ <a href="https://api.whatsapp.com/send?phone=919662713165&text=♨️+ʟɪꜰᴇ ꜱᴜᴄᴋꜱ™" target="_blank"><img src="https://img.shields.io/badge/Whatsapp-%808080.svg?&style=for-the-badge&logo=Whatsapp&logoColor=white" alt="WhatsApp"><br>
+ <a href="https://instagram.com/on11._.sama"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/><br>
+</p>
 
-
-<div align="left">
-  
-A Fully Modular and Efficient Bot <br>
-  
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/Pain77/Rider)
-
-
-
-<div align="left">
-<br/>
-
-## ✨ Highlights
-
--   Fully Modular Design
--   Object Oriented
--   Written in [TypeScript](https://www.typescriptlang.org/)
--   Self-Restoring Auth
--   Built with [Baileys](https://github.com/adiwajshing/baileys) (The Best
-    WhatsApp Library Out There)
-    
-## 💪 Contribution
-
--   Feel free to open issues regarding any problems or if you have any feature
-    requests
--   Make sure to follow the ESLint Rules while editing the code and run
-    `yarn run prettier-format` before opening PRs
-
-## Follow me on insta.
-<p align="left">
-<a href="https://api.whatsapp.com/send?phone=919662713165&text=♨️+ʟɪꜰᴇ ꜱᴜᴄᴋꜱ™" target="_blank"><img src="https://img.shields.io/badge/Whatsapp-%808080.svg?&style=for-the-badge&logo=Whatsapp&logoColor=white" alt="WhatsApp"><br>
-    
---------
-
-## Give a ⭐ if this project helped you
+##  Special thanks to
+ <a href="https://github.com/adiwajshing/Baileys"><img alt="GitHub" src="https://img.shields.io/badge/@adiwajshing/Baileys%20-%23121011.svg?style=flat-square&logo=npm&color=white"/></a>

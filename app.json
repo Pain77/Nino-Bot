@@ -1,0 +1,67 @@
+{
+  "name": "Lisa-Bot",
+  "description": "A WhatsApp Bot With Rich Anime Features.",
+  "keywords": [
+      "bot",
+      "whatsapp",
+      "stickers",
+      "whatsapp-stickers",
+      "anime",
+      "whatsapp-bot",
+      "whatsapp-sticker-bot",
+      "whatsapp-botto"
+  ],
+  "website": "https://github.com/Pain77/Lisa-Bot#readme",
+  "repository": "https://github.com/Pain77/Lisa-Bot.git",
+  "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQZKE187nAqYc9lw4tKNM2_wk39XDo6UTkhA&usqp=CAU",
+  "success_url": "/",
+  "env": {
+      "PREFIX": {
+          "description": "Prefix of your bot"
+      },
+      "SESSION": {
+          "description": "A string for the session to be classified and to get access to the server endpoints"
+      },
+      "MODS": {
+          "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
+          "required": false
+      },
+      "CRON": {
+          "description": "Cron string to clear chats in a cycle",
+          "required": false
+      },
+      "MONGO_URI": {
+          "description": "A secret String for Mongodb Connection.(Required)"
+      },
+      "GOOGLE_API_KEY": {
+          "description": "Google API key for Google searches (Not Required)",
+          "required": false
+      },
+      "CHAT_BOT_URL": {
+          "description": "BrainShop API Brain url",
+          "required": false
+      },
+      "TENOR_API_KEY": {
+          "description": "A key used for gif searches",
+          "required": false
+      },
+      "GENIUS_KEY": {
+          "description": "Your access token of genius.com to fetch the lyrics",
+          "required": false
+      }
+  },
+  "buildpacks": [
+      {
+          "url": "heroku/nodejs"
+      },
+      {
+          "url": "https://github.com/PrajjwalDatir/heroku-buildpack-imagemagick.git"
+      },
+      {
+          "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+      },
+      {
+          "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+      }
+  ]
+}
