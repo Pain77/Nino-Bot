@@ -13,7 +13,7 @@
   ],
   "website": "https://github.com/Pain77/Nino-Bot#readme",
   "repository": "https://github.com/Pain77/Nino-Bot.git",
-  "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQZKE187nAqYc9lw4tKNM2_wk39XDo6UTkhA&usqp=CAU",
+  "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI11I6OXULAkjlZNe_q4r8cHdKLFeSqhCOlg&usqp=CAU",
   "success_url": "/",
   "env": {
       "PREFIX": {
