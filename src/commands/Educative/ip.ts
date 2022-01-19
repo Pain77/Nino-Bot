@@ -28,7 +28,7 @@ export default class Command extends BaseCommand {
                                  *Country_name*: ${response.data.country_name}`
                 M.reply(text);
             }).catch(err => {
-                M.reply(`No such ip, Pabo!`)
+                M.reply(`No such ip, Baka!`)
             }
             )
     };
