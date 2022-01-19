@@ -18,7 +18,7 @@ export default class EventHandler {
         const add = event.action === 'add'
 	const remove = event.action === 'remove'
         const text = add
-            ? `(っ◔◡◔)っ 𝙒𝙚𝙡𝙘𝙤𝙢𝙚 𝙩𝙤 - ${group.subject || '___'} -\n\n🍁ɢʀᴏᴜᴘ ᴅᴇꜱᴄʀɪᴘᴛɪᴏɴ:\n${
+            ? `(◔◡◔) 𝙒𝙚𝙡𝙘𝙤𝙢𝙚 𝙩𝙤 - ${group.subject || '___'} -\n\n🍁ɢʀᴏᴜᴘ ᴅᴇꜱᴄʀɪᴘᴛɪᴏɴ:\n${
                group.desc
              }\n\n🎗ʜᴏᴘᴇ ʏᴏᴜ ꜰᴏʟʟᴏᴡ ᴛʜᴇ ʀᴜʟᴇꜱ ᴀɴᴅ ʜᴀᴠᴇ ꜰᴜɴ!\n\n*‣ ${event.participants
               .map((jid) => `@${jid.split('@')[0]}`)
