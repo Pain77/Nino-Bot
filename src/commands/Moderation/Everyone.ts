@@ -45,7 +45,7 @@ export default class Command extends BaseCommand {
 				type: "default",
 				categories: ["🎊"],
 			});
-			return void (await M.reply( { url: selected }, MessageType.jpg);
+			return void (await M.reply( { url: selected }, MessageType.jpg));
 				await sticker.build(),
 				MessageType.sticker,
 				mimetype: Mimetype.webp,
