@@ -39,10 +39,7 @@ export default class Command extends BaseCommand {
 🎗ᴄᴏɴᴛᴀᴄᴛ: wa.me/918473956301?text=𝙝𝙚𝙡𝙡𝙤+ʀᴀᴋᴇꜱʜ
 ──────────────
 ╰• ʙʟᴀᴢᴇ
-🎗ᴄᴏɴᴛᴀᴄᴛ: wa.me/917721059975?text=𝙝𝙚𝙡𝙡𝙤+ʙʟᴀᴢᴇ
-──────────────────
-🅂🅄🄿🄿🄾🅁🅃 🄶🅁🄾🅄🄿                                        
-🎗 https://chat.whatsapp.com/JboXSiHnBLBLE9cJ5Ai8ur 
+🎗ᴄᴏɴᴛᴀᴄᴛ: wa.me/917721059975?text=𝙝𝙚𝙡𝙡𝙤+ʙʟᴀᴢᴇ 
 •━━━ ✽ • ✽ ━━━•`,
 			}
 		);
