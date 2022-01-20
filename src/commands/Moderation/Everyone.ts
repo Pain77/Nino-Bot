@@ -20,20 +20,22 @@ export default class Command extends BaseCommand {
 		});
 	}
 
-	run = async (M: ISimplifiedMessage): Promise<void> => {
-		const nino =		
+	run = async (
+		M: ISimplifiedMessage,
+		{ joined }: IParsedArgs
+	): Promise<void> => {
+		const gifs = [		
 			"https://c.tenor.com/XVLRX-3bx6MAAAPo/lisa-cute.mp4",
+		];
 
-	        return void this.client.sendMessage(
-			M.from,
-			{ url: nino },
-			MessageType.video,
-			{
-			        quoted: M.WAMessage,
+	        const random = gifs[Math.floor(Math.random() * gifs.length)];
+		
+		return void (await M.reply(
+				MessageType.video,
 				Mimetype.gif,
 				M.groupMetadata?.participants.map((user) => user.jid)
-	                }	
-	                ));
+		));
+	                
 	} else
 		return void (await M.reply(
 				`${
