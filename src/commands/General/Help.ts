@@ -12,7 +12,7 @@ export default class Command extends BaseCommand {
 			command: "help",
 			description: "Displays the info",
 			category: "general",
-			usage: `${client.config.prefix}kacchan`,
+			usage: `${client.config.prefix}nino`,
 		        dm: true,
                         aliases: ['h','?','menu']
 		});
@@ -29,7 +29,7 @@ export default class Command extends BaseCommand {
 				quoted: M.WAMessage,
 				mimetype: Mimetype.gif,
 				caption: `👋🏻 𝐊𝐨𝐧𝐢𝐜𝐡𝐢𝐰𝐚! *@${M.sender.username}*.
-⥤ 𝐖𝐚𝐭𝐚𝐬𝐡𝐢 𝐧𝐨 𝐧𝐚𝐦𝐚𝐞 𝐰𝐚 𝐍𝐚𝐤𝐚𝐧𝐨 𝐍𝐢𝐧𝐨 𝐃𝐞𝐬𝐮 🩰
+⥤ 𝐖𝐚𝐭𝐚𝐬𝐡𝐢 𝐍𝐨 𝐍𝐚𝐦𝐚𝐞 𝐖𝐚 𝐍𝐚𝐤𝐚𝐧𝐨 𝐍𝐢𝐧𝐨 𝐃𝐞𝐬𝐮 🩰
 ⥤ 𝐌𝐲 𝐏𝐫𝐞𝐟𝐢𝐱 𝐈𝐬 - "${this.client.config.prefix}"
 ➽───────────────❥
 1┊ᴅᴏɴ'ᴛ ᴄᴀʟʟ ᴍᴇ ᴛᴏ ᴀᴠᴏɪᴅ ʙʟᴏᴄᴋɪɴɢ.
@@ -42,42 +42,53 @@ export default class Command extends BaseCommand {
 |
 ╰┈➤ ❝ [ 𝙒𝙀𝙀𝘽 ] ❞
 |
-🧧 ${this.client.config.prefix}h1
+🎎 ᴅᴇꜱᴄʀɪᴘɪᴛɪᴏɴ: ʙʏ ᴜꜱɪɴɢ ᴛʜɪꜱ ʏᴏᴜ'ʟʟ ʙᴇ ʀᴇᴅɪʀᴇᴄᴛᴇᴅ ᴛᴏ ᴀɴɪᴍᴇ, ᴍᴀɴɢᴀ ꜱᴇᴄᴛɪᴏɴ.
+🛍️ ᴜꜱᴀɢᴇ: ${this.client.config.prefix}ʜᴇʟᴘ1 [${this.client.config.prefix}ʜ1]
 |
 ╰┈➤ ❝ [ 𝙁𝙐𝙉 ] ❞
 |
-🧧 ${this.client.config.prefix}h2
+🎎 ᴅᴇꜱᴄʀɪᴘɪᴛɪᴏɴ: ʙʏ ᴜꜱɪɴɢ ᴛʜɪꜱ ʏᴏᴜ'ʟʟ ʙᴇ ʀᴇᴅɪʀᴇᴄᴛᴇᴅ ᴛᴏ ꜰᴜɴ ꜱᴇᴄᴛɪᴏɴ.
+🛍️ ᴜꜱᴀɢᴇ: ${this.client.config.prefix}ʜᴇʟᴘ2 [${this.client.config.prefix}ʜ2]
 |
 ╰┈➤ ❝ [ 𝙂𝙀𝙉𝙀𝙍𝘼𝙇 ] ❞
 |
-🧧 ${this.client.config.prefix}h3
+🎎 ᴅᴇꜱᴄʀɪᴘɪᴛɪᴏɴ: ʙʏ ᴜꜱɪɴɢ ᴛʜɪꜱ ʏᴏᴜ'ʟʟ ʙᴇ ʀᴇᴅɪʀᴇᴄᴛᴇᴅ ᴛᴏ ɢᴇɴᴇʀᴀʟ ꜱᴇᴄᴛɪᴏɴ.
+🛍️ ᴜꜱᴀɢᴇ: ${this.client.config.prefix}ʜᴇʟᴘ3 [${this.client.config.prefix}ʜ3]
 |
-╰┈➤ ❝ [Fancy text] ❞
+╰┈➤ ❝ [ 𝙐𝙏𝙄𝙇𝙎 ] ❞
 |
-🧧 ${this.client.config.prefix}h4
+🎎 ᴅᴇꜱᴄʀɪᴘɪᴛɪᴏɴ: ʙʏ ᴜꜱɪɴɢ ᴛʜɪꜱ ʏᴏᴜ'ʟʟ ʙᴇ ʀᴇᴅɪʀᴇᴄᴛᴇᴅ ᴛᴏ ᴜᴛɪʟꜱ ꜱᴇᴄᴛɪᴏɴ.
+🛍️ ᴜꜱᴀɢᴇ: ${this.client.config.prefix}ʜᴇʟᴘ4 [${this.client.config.prefix}ʜ4]
 |
-╰┈➤ ❝ [Fancy text] ❞
+╰┈➤ ❝ [ 𝙈𝙀𝘿𝙄𝘼 ] ❞
 |
-🧧 ${this.client.config.prefix}h5
+🎎 ᴅᴇꜱᴄʀɪᴘɪᴛɪᴏɴ: ʙʏ ᴜꜱɪɴɢ ᴛʜɪꜱ ʏᴏᴜ'ʟʟ ʙᴇ ʀᴇᴅɪʀᴇᴄᴛᴇᴅ ᴛᴏ ᴍᴇᴅɪᴀ ꜱᴇᴄᴛɪᴏɴ.
+🛍️ ᴜꜱᴀɢᴇ: ${this.client.config.prefix}ʜᴇʟᴘ5 [${this.client.config.prefix}ʜ5]
 |
-╰┈➤ ❝ [Fancy text] ❞
+╰┈➤ ❝ [ 𝙀𝘿𝙐𝘾𝘼𝙏𝙄𝙑𝙀 ] ❞
 |
-🧧 ${this.client.config.prefix}h6
+🎎 ᴅᴇꜱᴄʀɪᴘɪᴛɪᴏɴ: ʙʏ ᴜꜱɪɴɢ ᴛʜɪꜱ ʏᴏᴜ'ʟʟ ʙᴇ ʀᴇᴅɪʀᴇᴄᴛᴇᴅ ᴛᴏ ᴇᴅᴜᴄᴀᴛɪᴠᴇ ꜱᴇᴄᴛɪᴏɴ.
+🛍️ ᴜꜱᴀɢᴇ: ${this.client.config.prefix}ʜᴇʟᴘ6 [${this.client.config.prefix}ʜ6]
 |
-╰┈➤ ❝ [Fancy text] ❞
+╰┈➤ ❝ [ 𝙈𝙊𝘿𝙀𝙍𝘼𝙏𝙄𝙊𝙉 ] ❞
 |
-🧧 ${this.client.config.prefix}h7
+🎎 ᴅᴇꜱᴄʀɪᴘɪᴛɪᴏɴ: ʙʏ ᴜꜱɪɴɢ ᴛʜɪꜱ ʏᴏᴜ'ʟʟ ʙᴇ ʀᴇᴅɪʀᴇᴄᴛᴇᴅ ᴛᴏ ᴍᴏᴅᴇʀᴀᴛɪᴏɴ ꜱᴇᴄᴛɪᴏɴ.
+🛍️ ᴜꜱᴀɢᴇ: ${this.client.config.prefix}ʜᴇʟᴘ7 [${this.client.config.prefix}ʜ7]
 |
-╰┈➤ ❝ [Fancy text] ❞
+╰┈➤ ❝ [ 𝙉𝙎𝙁𝙒 ] ❞
 |
-🧧 ${this.client.config.prefix}h8
+🎎 ᴅᴇꜱᴄʀɪᴘɪᴛɪᴏɴ: ʙʏ ᴜꜱɪɴɢ ᴛʜɪꜱ ʏᴏᴜ'ʟʟ ʙᴇ ʀᴇᴅɪʀᴇᴄᴛᴇᴅ ᴛᴏ ɴꜱꜰᴡ ꜱᴇᴄᴛɪᴏɴ.
+🛍️ ᴜꜱᴀɢᴇ: ${this.client.config.prefix}ʜᴇʟᴘ8 [${this.client.config.prefix}ʜ8]
 |
-╰┈➤ ❝ [Fancy text] ❞
+╰┈➤ ❝ [ 𝙇𝙊𝙂𝙊 ] ❞
 |
-
+🎎 ᴅᴇꜱᴄʀɪᴘɪᴛɪᴏɴ: ʙʏ ᴜꜱɪɴɢ ᴛʜɪꜱ ʏᴏᴜ'ʟʟ ʙᴇ ʀᴇᴅɪʀᴇᴄᴛᴇᴅ ᴛᴏ ʟᴏɢᴏ ꜱᴇᴄᴛɪᴏɴ.
+🛍️ ᴜꜱᴀɢᴇ: ${this.client.config.prefix}ʜᴇʟᴘ9 [${this.client.config.prefix}ʜ9]
 |
 ╰── ⋅ ⋅ ── ✩ ── ⋅ ⋅ ──
-📝 𝙉𝙤𝙩𝙚: 🧧 ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ɪꜱꜱᴜᴇꜱ ᴡɪᴛʜ ᴛʜᴇ ʙᴏᴛ ᴏʀ ᴀɴʏ ᴇʀʀᴏʀ ᴛʜᴇɴ ᴄᴏɴᴛᴀᴄᴛ ʙᴏᴛ ᴏᴡɴᴇʀ. ᴛʏᴘᴇ " ${this.client.config.prefix}ᴏᴡɴᴇʀ " ᴛᴏ ᴄᴏɴᴛᴀᴄᴛ ᴏᴡɴᴇʀ!
+ ┍━━━━━»•» 🌺 «•«━┑
+   © 🅽🅸🅽🅾-🅱🅾🆃 
+ ┕━»•» 🌺 «•«━━━━━┙
 
  `,
 			}
