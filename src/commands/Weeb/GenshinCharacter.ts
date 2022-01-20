@@ -26,7 +26,7 @@ export default class Command extends BaseCommand {
 		const lisa = joined.trim();
 		const genshin = await genshindb.characters(lisa);
 		if (genshin === undefined) {
-			return void M.reply("No such character, Pabo!");
+			return void M.reply("No such character, Baka!");
 		}
 		let text = "";
 		text += `💎 *Name: ${genshin.name}*\n`;
