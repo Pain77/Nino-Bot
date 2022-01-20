@@ -24,11 +24,14 @@ export default class Command extends BaseCommand {
 		const nino =		
 			"https://c.tenor.com/XVLRX-3bx6MAAAPo/lisa-cute.mp4",
 
-	        return void (await M.reply(
-			        MessageType.video,
+	        return void this.client.sendMessage(
+			M.from,
+			{ url: nino },
+				MessageType.video,
 				Mimetype.gif,
 				M.groupMetadata?.participants.map((user) => user.jid)
 		));	
+	        }
 	} else
 		return void (await M.reply(
 				`${
