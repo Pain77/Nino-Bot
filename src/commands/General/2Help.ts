@@ -35,7 +35,7 @@ export default class Command extends BaseCommand {
                     categories[info.config.category].push(info)
                 }
             }
-            let text = `👋🏻 (🎀) Annyeonghaseyo! *${M.sender.username}*\n`
+            let text = `👋🏻 (🎀) Konichiwa! *${M.sender.username}*\n`
             const keys = Object.keys(categories)
             for (const key of keys)
                 text += `━━❰•Bot ${this.emojis[keys.indexOf(key)]} ${this.client.util.capitalize(key)}•❱━━\n• \`\`\`${categories[
