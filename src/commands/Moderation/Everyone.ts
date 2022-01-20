@@ -24,7 +24,10 @@ export default class Command extends BaseCommand {
 		M: ISimplifiedMessage,
 		{ joined }: IParsedArgs
 	): Promise<void> => {
-		const stickers = [
+		if (!joined)
+			return void (await M.reply(`Please provide a Message to tag everyone.`));
+		const term = joined.trim();
+		const stickers = [		
 			"https://wallpapercave.com/wp/wp3144753.jpg",
 			"https://wallpapercave.com/wp/wp4782018.jpg",
 			"https://wallpaperaccess.com/full/1326836.jpg",
@@ -37,7 +40,7 @@ export default class Command extends BaseCommand {
 		if (term[0] === "--s" || term[0] === "--sticker") {
 			const sticker: any = await new Sticker(random, {
 				pack: "READ QUOTED MESSAGE",
-				author: "Lisa",
+				author: "Nino",
 				quality: 90,
 				type: "default",
 				categories: ["🎊"],
