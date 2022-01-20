@@ -32,8 +32,8 @@ export default class Command extends BaseCommand {
 			        quoted: M.WAMessage,
 				Mimetype.gif,
 				M.groupMetadata?.participants.map((user) => user.jid)
-		));	
-	        }
+	                }	
+	                ));
 	} else
 		return void (await M.reply(
 				`${
@@ -46,5 +46,5 @@ export default class Command extends BaseCommand {
 			).catch((reason: any) =>
 				M.reply(`✖️ An error occurred, Reason: ${reason}`)
 			));
-	};
+	        };
 }
