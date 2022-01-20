@@ -24,20 +24,32 @@ export default class Command extends BaseCommand {
 		M: ISimplifiedMessage,
 		{ joined }: IParsedArgs
 	): Promise<void> => {
-		const gifs = [		
-			"https://c.tenor.com/XVLRX-3bx6MAAAPo/lisa-cute.mp4",
+		const stickers = [
+			"https://wallpapercave.com/wp/wp3144753.jpg",
+			"https://wallpapercave.com/wp/wp4782018.jpg",
+			"https://wallpaperaccess.com/full/1326836.jpg",
+			"https://wallpapermemory.com/uploads/711/chitoge-kirisaki-wallpaper-full-hd-323316.jpg",
+			"https://data.whicdn.com/images/304776416/original.jpg",
+			"https://i.pinimg.com/564x/ca/e7/8a/cae78ad7f8e6459ad20bde350e2eb78b.jpg",
 		];
-
-	        const random = gifs[Math.floor(Math.random() * gifs.length)];
-		
-		return void (await M.reply(
-				MessageType.video,
-				Mimetype.gif,
+		const random = stickers[Math.floor(Math.random() * stickers.length)];
+		const term = joined.trim().split(" ");
+		if (term[0] === "--s" || term[0] === "--sticker") {
+			const sticker: any = await new Sticker(random, {
+				pack: "READ QUOTED MESSAGE",
+				author: "Zero Two",
+				quality: 90,
+				type: "default",
+				categories: ["🎊"],
+			});
+			return void (await M.reply(
+				await sticker.build(),
+				MessageType.sticker,
+				Mimetype.webp,
 				M.groupMetadata?.participants.map((user) => user.jid)
-		));
-	                
-	} else
-		return void (await M.reply(
+			));
+		} else
+			return void (await M.reply(
 				`${
 					M.groupMetadata?.subject || "*EVERYONE*"
 				}\n*READ QUOTED MESSAGE*\n*[TAGGED MAGICALLY]*`,
@@ -48,5 +60,5 @@ export default class Command extends BaseCommand {
 			).catch((reason: any) =>
 				M.reply(`✖️ An error occurred, Reason: ${reason}`)
 			));
-	        };
+	};
 }
