@@ -24,8 +24,6 @@ export default class Command extends BaseCommand {
 		M: ISimplifiedMessage,
 		{ joined }: IParsedArgs
 	): Promise<void> => {
-		if (!joined)
-			return void (await M.reply(`Please provide a Message to tag everyone.`));
 		const term = joined.trim();
 		const stickers = [		
 			"https://wallpapercave.com/wp/wp3144753.jpg",
