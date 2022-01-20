@@ -25,7 +25,7 @@ export default class Command extends BaseCommand {
 		{ joined }: IParsedArgs
 	): Promise<void> => {
 		const term = joined.trim();
-		const stickers = [		
+		const images = [		
 			"https://wallpapercave.com/wp/wp3144753.jpg",
 			"https://wallpapercave.com/wp/wp4782018.jpg",
 			"https://wallpaperaccess.com/full/1326836.jpg",
@@ -33,10 +33,9 @@ export default class Command extends BaseCommand {
 			"https://data.whicdn.com/images/304776416/original.jpg",
 			"https://i.pinimg.com/564x/ca/e7/8a/cae78ad7f8e6459ad20bde350e2eb78b.jpg",
 		];
-		const selected = stickers[Math.floor(Math.random() * stickers.length)];
+		const selected = images[Math.floor(Math.random() * images.length)];
 		const term = joined.trim().split(" ");
-		if (term[0] === "--s" || term[0] === "--sticker") {
-			const stickers: any = await new Sticker(random, {
+			const images: any = await new Image(random, {
 				pack: "READ QUOTED MESSAGE",
 				author: "Nino",
 				quality: 90,
@@ -44,9 +43,8 @@ export default class Command extends BaseCommand {
 				categories: ["🎊"],
 			});
 			return void (await M.reply( { url: selected }, MessageType.jpg));
-				await sticker.build(),
-				MessageType.sticker,
-				mimetype: Mimetype.webp,
+				MessageType.image,
+				mimetype: Mimetype.jpg,
 				M.groupMetadata?.participants.map((user) => user.jid),
 				},
 			});
