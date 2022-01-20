@@ -12,26 +12,23 @@ export default class Command extends BaseCommand {
 			command: "help2",
 			description: "Displays the info",
 			category: "general",
-			usage: `${client.config.prefix}kacchan`,
+			usage: `${client.config.prefix}nino`,
 		        dm: true,
-                        aliases: ['h2','?2','well2','menu2']
+                        aliases: ['h2','?2','menu2']
 		});
 	}
 
 	run = async (M: ISimplifiedMessage): Promise<void> => {
-		const kacchan = 
+		const nino = 
 			"https://c.tenor.com/iM-nb2_7qcIAAAPo/rider-medusa.mp4";
 		return void this.client.sendMessage(
 			M.from,
-			{ url: kacchan },
+			{ url: nino },
 			MessageType.video,
 			{
 				quoted: M.WAMessage,
 				mimetype: Mimetype.gif,
 				caption: `-🄵🅄🄽 🍁
-				
-────────────────
-
 〽 ${this.client.config.prefix}𝙛𝙖𝙘𝙩 
 〽 ${this.client.config.prefix}𝙟𝙤𝙠𝙚 
 〽 ${this.client.config.prefix}𝙦𝙪𝙤𝙩𝙚 
