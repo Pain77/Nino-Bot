@@ -18,7 +18,7 @@ export default class Command extends BaseCommand {
 
     run = async (M: ISimplifiedMessage): Promise<void> => {
 
-await this.client.sendMessage( M.sender.jid,`*LISA'S SUPPORT GROUP 🌸*
+await this.client.sendMessage( M.sender.jid,`*NINO'S SUPPORT GROUP 🌸*
 
 *🉐 Info :* Jᴏɪɴ Oᴜʀ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ Tᴏ Aᴅᴅ Oᴜʀ Bᴏᴛ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ Oʀ Yᴏᴜ Cᴀɴ Asᴋ Aɴʏ Qᴜᴇʀʏ Rᴇɢᴀʀᴅɪɴɢ Tʜʀ Bᴏᴛ!!
 
@@ -27,7 +27,7 @@ await this.client.sendMessage( M.sender.jid,`*LISA'S SUPPORT GROUP 🌸*
 - Fᴏʟʟᴏᴡ Tʜᴇ Aᴅᴍɪɴs
 - Dᴏɴᴛ Mɪssʙᴇʜᴀᴠᴇ Wɪᴛʜ Aɴʏ Mᴇᴍʙᴇʀs
 
-*🧣 Tittle: 『 Lisa Bot 』🎈*
+*🧣 Tittle: 『 Nino Bot 』🎈*
 
 *✉ Invite:* https://chat.whatsapp.com/C3kk3GSXLitKHZp9wLLTP3`, MessageType.text ) 
 return void M.reply('_*Sent you a personal message regarding this 🎈*_')
