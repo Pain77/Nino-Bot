@@ -24,7 +24,7 @@ export default class Command extends BaseCommand {
 	): Promise<void> => {
 		//if (!this.client.config.weatherAppid)
 		//	return void M.reply("No weather api key set");
-		if (!joined) return void M.reply("Provide me the place name, Pabo!");
+		if (!joined) return void M.reply("Provide me the place name, Baka!");
 		const place = joined.trim();
 		await axios
 			.get(`https://api.popcat.xyz/weather?q=${place}`)
