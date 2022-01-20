@@ -21,11 +21,11 @@ export default class Command extends BaseCommand {
 
     run = async (M: ISimplifiedMessage): Promise<void> => {
         // fetch result of https://waifu.pics/api/sfw/waifu from the API using axios
-        return void M.reply( await request.buffer(`https://wallpapercave.com/uwp/uwp1738845.jpeg`),
+        return void M.reply( await request.buffer(`https://en.free-wallpapers.su/data/media/3/big/anm7425.jpg`),
         MessageType.image,
                     undefined,
                     undefined,
-                    `---「𝘿𝙤𝙣’𝙩 𝙏𝙚𝙖𝙘𝙝 𝙈𝙚 𝙒𝙞𝙩𝙝𝙤𝙪𝙩 𝙈𝙮 𝙋𝙚𝙧𝙢𝙞𝙨𝙨𝙞𝙤𝙣 👠」---
+                    `‿︵‿︵ʚ˚̣̣̣͙「𝘿𝙤𝙣’𝙩 𝙏𝙚𝙖𝙘𝙝 𝙈𝙚 𝙒𝙞𝙩𝙝𝙤𝙪𝙩 𝙈𝙮 𝙋𝙚𝙧𝙢𝙞𝙨𝙨𝙞𝙤𝙣 👠」˚̣̣̣͙ɞ‿︵‿︵
 
 
 (っ◔◡◔)っ 𝚃𝙰𝙺𝙴 𝙰 𝙻𝙾𝙾𝙺 𝙰𝚃 𝙼𝚈 𝚁𝚄𝙻𝙴𝚂 🔖
