@@ -32,7 +32,7 @@ export default class Command extends BaseCommand {
 		if (!code) return void M.reply("Give me the language code 🐱");
 		// eslint-disable-next-line @typescript-eslint/no-explicit-any
 		const response = await translate(word, { to: code }).catch((err: any) => {
-			return void M.reply(`Invalid language code, Pabo!`);
+			return void M.reply(`Invalid language code, Baka!`);
 		});
 		const text = `${response}`;
 		M.reply(text);
