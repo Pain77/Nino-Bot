@@ -31,7 +31,7 @@ export default class Command extends BaseCommand {
         } catch (err) {
             M.reply(`Profile Picture not Accessible of ${username}`)
             pfp =
-                'https://i.pinimg.com/736x/8a/b6/f8/8ab6f8666f15c3d2a879e3cfd9af51f1.jpg'
+                'https://scontent.fraj3-1.fna.fbcdn.net/v/t1.6435-9/fr/cp0/e15/q65/56386472_1735036586599473_7903762065511153664_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=85a577&_nc_ohc=FfRHSP5vFC8AX8wcEy0&_nc_ht=scontent.fraj3-1.fna&oh=00_AT9ttRXBSm2RZBBvE9IKnvA4jQdG2bybGq7dAB5lPJtMPQ&oe=620F9EEB'
         }
         const exp = (await this.client.getUser(user)).Xp
         let role: string;
@@ -82,7 +82,7 @@ export default class Command extends BaseCommand {
         await M.reply(
             await request.buffer(
                 pfp ||
-                    'https://i.pinimg.com/736x/8a/b6/f8/8ab6f8666f15c3d2a879e3cfd9af51f1.jpg'
+                    'https://scontent.fraj3-1.fna.fbcdn.net/v/t1.6435-9/fr/cp0/e15/q65/56386472_1735036586599473_7903762065511153664_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=85a577&_nc_ohc=FfRHSP5vFC8AX8wcEy0&_nc_ht=scontent.fraj3-1.fna&oh=00_AT9ttRXBSm2RZBBvE9IKnvA4jQdG2bybGq7dAB5lPJtMPQ&oe=620F9EEB'
             ),
             MessageType.image,
             undefined,
