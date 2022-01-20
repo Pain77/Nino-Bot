@@ -24,26 +24,17 @@ export default class Command extends BaseCommand {
 		const term = joined.trim();
 		const nino =		
 			"https://c.tenor.com/XVLRX-3bx6MAAAPo/lisa-cute.mp4",
-			
-		return void this.client.sendMessage(
-			M.from,
-			{ url: nino },
-			MessageType.video,
-			{
-				quoted: M.WAMessage,
-				mimetype: Mimetype.gif,
-				M.groupMetadata?.participants.map((user) => user.jid),
-				},
-		        }
-		);
 		      
-		} else
-			return void (await M.reply(
+		return void (await M.reply(
+				M.from,
+			        { url: nino },
+			        MessageType.video,
 				`${
 					M.groupMetadata?.subject || "*EVERYONE*"
 				}\n*READ QUOTED MESSAGE*\n*[TAGGED MAGICALLY]*`,
 				undefined,
 				undefined,
+				mimetype: Mimetype.gif,
 				M.groupMetadata?.participants.map((user) => user.jid)
 				// eslint-disable-next-line @typescript-eslint/no-explicit-any
 			).catch((reason: any) =>
