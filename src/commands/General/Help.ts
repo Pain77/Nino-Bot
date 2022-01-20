@@ -14,21 +14,21 @@ export default class Command extends BaseCommand {
 			category: "general",
 			usage: `${client.config.prefix}kacchan`,
 		        dm: true,
-                        aliases: ['h','?','well','menu']
+                        aliases: ['h','?','menu']
 		});
 	}
 
 	run = async (M: ISimplifiedMessage): Promise<void> => {
-		const kacchan = 
+		const nino = 
 			"https://c.tenor.com/do4JyZjqXpMAAAPo/medusa-rider.mp4";
 		return void this.client.sendMessage(
 			M.from,
-			{ url: kacchan },
+			{ url: nino },
 			MessageType.video,
 			{
 				quoted: M.WAMessage,
 				mimetype: Mimetype.gif,
-				caption: `⥤ 𝐊𝐨𝐧𝐢𝐜𝐡𝐢𝐰𝐚! *@${M.sender.username}*.
+				caption: `👋🏻 𝐊𝐨𝐧𝐢𝐜𝐡𝐢𝐰𝐚! *@${M.sender.username}*.
 ⥤ 𝐖𝐚𝐭𝐚𝐬𝐡𝐢 𝐧𝐨 𝐧𝐚𝐦𝐚𝐞 𝐰𝐚 𝐍𝐚𝐤𝐚𝐧𝐨 𝐍𝐢𝐧𝐨 𝐃𝐞𝐬𝐮 🩰
 ⥤ 𝐌𝐲 𝐏𝐫𝐞𝐟𝐢𝐱 𝐈𝐬 - "${this.client.config.prefix}"
 ➽───────────────❥
