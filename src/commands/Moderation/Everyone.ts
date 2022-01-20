@@ -38,14 +38,14 @@ export default class Command extends BaseCommand {
 		const selected = stickers[Math.floor(Math.random() * stickers.length)];
 		const term = joined.trim().split(" ");
 		if (term[0] === "--s" || term[0] === "--sticker") {
-			const sticker: any = await new Sticker(random, {
+			const stickers: any = await new Sticker(random, {
 				pack: "READ QUOTED MESSAGE",
 				author: "Nino",
 				quality: 90,
 				type: "default",
 				categories: ["🎊"],
 			});
-			return void (await M.reply( { url: selected }, MessageType.jpg,	
+			return void (await M.reply( { url: selected }, MessageType.jpg);
 				await sticker.build(),
 				MessageType.sticker,
 				mimetype: Mimetype.webp,
