@@ -12,38 +12,38 @@ export default class Command extends BaseCommand {
 			command: "help6",
 			description: "Displays the info",
 			category: "general",
-			usage: `${client.config.prefix}kacchan`,
+			usage: `${client.config.prefix}nino`,
 		        dm: true,
-                        aliases: ['h6','?6','well6','menu6']
+                        aliases: ['h6','?6','menu6']
 		});
 	}
 
 	run = async (M: ISimplifiedMessage): Promise<void> => {
-		const kacchan = 
+		const nino = 
 			"https://c.tenor.com/e2NMPP0SCdIAAAPo/medusa-rider.mp4";
 		return void this.client.sendMessage(
 			M.from,
-			{ url: kacchan },
+			{ url: nino },
 			MessageType.video,
 			{
 				quoted: M.WAMessage,
 				mimetype: Mimetype.gif,
-				caption: `-🅄🅃🄸🄻🅂 🍁
+				caption: `╔═.✾. ❝ [ 𝙀𝘿𝙐𝘾𝘼𝙏𝙄𝙑𝙀 ] ❞ ═════
+📒 ${this.client.config.prefix}ʙʀᴀɪɴʟʏ 
+📒 ${this.client.config.prefix}ᴄᴀʟᴄᴜʟᴀᴛᴏʀ 
+📒 ${this.client.config.prefix}ᴄᴏᴠɪᴅ 
+📒 ${this.client.config.prefix}ᴄʀʏᴘᴛᴏ 
+📒 ${this.client.config.prefix}ᴇʟᴇᴍᴇɴᴛ 
+📒 ${this.client.config.prefix}ᴛʀɪᴠɪᴀ 
+📒 ${this.client.config.prefix}ᴜʀʙᴀɴᴅɪᴄᴛɪᴏɴᴀʀʏ 
+📒 ${this.client.config.prefix}ɪᴘ 
+📒 ${this.client.config.prefix}ᴡᴇᴀᴛʜᴇʀ
+📒 ${this.client.config.prefix}sᴘᴀᴄᴇ
+╚══════════════════.✾.
 
-────────────────
-
-〽 ${this.client.config.prefix}𝙗𝙡𝙪𝙧 
-〽 ${this.client.config.prefix}𝙜𝙚𝙩𝙜𝙞𝙛 
-〽 ${this.client.config.prefix}𝙜𝙤𝙤𝙜𝙡𝙚 
-〽 ${this.client.config.prefix}𝙧𝙚𝙩𝙧𝙞𝙚𝙫𝙚 
-〽 ${this.client.config.prefix}𝙨𝙘𝙧𝙚𝙚𝙣𝙨𝙝𝙤𝙩 
-〽 ${this.client.config.prefix}𝙨𝙩𝙚𝙖𝙡 
-〽 ${this.client.config.prefix}𝙨𝙩𝙞𝙘𝙠𝙚𝙧 
-〽 ${this.client.config.prefix}𝙨𝙪𝙗𝙧𝙚𝙙 
-〽 ${this.client.config.prefix}𝙩𝙧𝙖𝙣𝙨𝙡𝙖𝙩𝙚 
-〽 ${this.client.config.prefix}𝙬𝙞𝙠𝙞𝙥𝙚𝙙𝙞𝙖
-    
-────────────────
+❅───✧ ✦ ✧───❅
+📬 ɴᴏᴛᴇ: ᴜꜱᴇ ${this.client.config.prefix}ʜᴇʟᴘ <ᴄᴏᴍᴍᴀɴᴅ_ɴᴀᴍᴇ> ᴛᴏ ᴠɪᴇᴡ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅ ɪɴꜰᴏ.
+❅───✧ ✦ ✧───❅
 
  `,
 			}
