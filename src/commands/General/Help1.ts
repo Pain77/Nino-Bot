@@ -12,33 +12,46 @@ export default class Command extends BaseCommand {
 			command: "help2",
 			description: "Displays the info",
 			category: "general",
-			usage: `${client.config.prefix}kacchan`,
+			usage: `${client.config.prefix}nino`,
 		        dm: true,
-                        aliases: ['h1','?1','well1','menu1']
+                        aliases: ['h1','?1','menu1']
 		});
 	}
 
 	run = async (M: ISimplifiedMessage): Promise<void> => {
-		const kacchan = 
+		const nino = 
 			"https://c.tenor.com/0KSyqTDyiEIAAAPo/rider-saber-alter.mp4";
 		return void this.client.sendMessage(
 			M.from,
-			{ url: kacchan },
+			{ url: nino },
 			MessageType.video,
 			{
 				quoted: M.WAMessage,
 				mimetype: Mimetype.gif,
-				caption: `-🄴🄳🅄🄲🄰🅃🄸🅅🄴 🍁
-────────────────				
+				caption: `╔═.✾. ❝ [ 𝙒𝙀𝙀𝘽 ] ❞ ════				
+⛩️ ${this.client.config.prefix}ᴀɴɪᴍᴇ 
+⛩️ ${this.client.config.prefix}ᴀɴɪᴍᴇᴘᴀᴘᴇʀ 
+⛩️ ${this.client.config.prefix}ᴀɴɪᴍᴇQᴜᴏᴛᴇ 
+⛩️ ${this.client.config.prefix}ᴀᴍᴇᴍᴇ 
+⛩️ ${this.client.config.prefix}ᴄʜᴀʀᴀᴄᴛᴇʀ 
+⛩️ ${this.client.config.prefix}ᴄᴏsᴘʟᴀʏ 
+⛩️ ${this.client.config.prefix}ɢᴇɴꜱʜɪɴᴄʜᴀʀᴀᴄᴛᴇʀ 
+⛩️ ${this.client.config.prefix}ʜᴀɪɢᴜꜱʜᴀ 
+⛩️ ${this.client.config.prefix}ᴋɪᴛꜱᴜɴᴇ 
+⛩️ ${this.client.config.prefix}ʟᴏʟɪ 
+⛩️ ${this.client.config.prefix}ᴍᴀɴɢᴀ 
+⛩️ ${this.client.config.prefix}ɴᴇᴋᴏ 
+⛩️ ${this.client.config.prefix}ᴘᴏᴋᴇᴍᴏɴ 
+⛩️ ${this.client.config.prefix}ʀᴇᴄᴏᴍᴍᴇɴᴅ 
+⛩️ ${this.client.config.prefix}ʀᴘᴀᴘᴇʀ 
+⛩️ ${this.client.config.prefix}ᴡᴀɪꜰᴜ 
+⛩️ ${this.client.config.prefix}ɪɴꜰᴏᴡᴀɪꜰᴜ 
+⛩️ ${this.client.config.prefix}ᴡᴀʟʟᴘᴀᴘᴇʀ  
+╚═════════════════.✾.
 
-〽 ${this.client.config.prefix}𝙘𝙖𝙡𝙘𝙪𝙡𝙖𝙩𝙤𝙧 
-〽 ${this.client.config.prefix}𝙚𝙡𝙚𝙢𝙚𝙣𝙩 
-〽 ${this.client.config.prefix}𝙩𝙧𝙞𝙫𝙞𝙖 
-〽 ${this.client.config.prefix}𝙪𝙧𝙗𝙖𝙣𝙙𝙞𝙘𝙩𝙞𝙤𝙣𝙖𝙧𝙮 
-〽 ${this.client.config.prefix}𝙬𝙚𝙖𝙩𝙝𝙚𝙧
-〽 ${this.client.config.prefix}𝙜𝙞𝙩𝙝𝙪𝙗
-    
-────────────────
+❅───✧ ✦ ✧───❅
+📬 ɴᴏᴛᴇ: ᴜꜱᴇ ${this.client.config.prefix}ʜᴇʟᴘ <ᴄᴏᴍᴍᴀɴᴅ_ɴᴀᴍᴇ> ᴛᴏ ᴠɪᴇᴡ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅ ɪɴꜰᴏ.
+❅───✧ ✦ ✧───❅
 
  `,
 			}
