@@ -12,38 +12,38 @@ export default class Command extends BaseCommand {
 			command: "help3",
 			description: "Displays the info",
 			category: "general",
-			usage: `${client.config.prefix}kacchan`,
+			usage: `${client.config.prefix}nino`,
 		        dm: true,
-                        aliases: ['h3','?3','well3','menu3']
+                        aliases: ['h3','?3','menu3']
 		});
 	}
 
 	run = async (M: ISimplifiedMessage): Promise<void> => {
-		const kacchan = 
+		const nino = 
 			"https://c.tenor.com/SKlfW2pJKRoAAAPo/rider-medusa.mp4";
 		return void this.client.sendMessage(
 			M.from,
-			{ url: kacchan },
+			{ url: nino },
 			MessageType.video,
 			{
 				quoted: M.WAMessage,
 				mimetype: Mimetype.gif,
-				caption: `-🄶🄴🄽🄴🅁🄰🄻 🍁
-
-────────────────
-
-〽 ${this.client.config.prefix}𝙖𝙙𝙢𝙞𝙣𝙨 
-〽 ${this.client.config.prefix}𝙚𝙭𝙥 
-〽 ${this.client.config.prefix}𝙝𝙚𝙡𝙥 
-〽 ${this.client.config.prefix}𝙝𝙞 
-〽 ${this.client.config.prefix}𝙞𝙣𝙛𝙤 
-〽 ${this.client.config.prefix}𝙞𝙣𝙫𝙞𝙩𝙚𝙡𝙞𝙣𝙠 
-〽 ${this.client.config.prefix}𝙍𝙞𝙙𝙚𝙧 
-〽 ${this.client.config.prefix}𝙢𝙤𝙙𝙨 
-〽 ${this.client.config.prefix}𝙥𝙧𝙤𝙛𝙞𝙡𝙚 
-〽 ${this.client.config.prefix}𝙧𝙖𝙣𝙠
-    
-────────────────
+				caption: `╔═.✾. ❝ [ 𝙂𝙀𝙉𝙀𝙍𝘼𝙇 ] ❞ ═════
+🧧 ${this.client.config.prefix}ᴀᴅᴍɪɴs 
+🧧 ${this.client.config.prefix}ᴇxᴘ 
+🧧 ${this.client.config.prefix}ʜɪ
+🧧 ${this.client.config.prefix}ɢʀᴏᴜᴘʟɪɴᴋ
+🧧 ${this.client.config.prefix}ᴍᴏᴅs 
+🧧 ${this.client.config.prefix}ᴘʀᴏғɪʟᴇ 
+🧧 ${this.client.config.prefix}ᴢᴇʀᴏᴛᴡᴏ
+🧧 ${this.client.config.prefix}sᴜᴘᴘᴏʀᴛ
+🧧 ${this.client.config.prefix}ʀᴜʟᴇs
+🧧 ${this.client.config.prefix}ɪɴғᴏ
+🧧 ${this.client.config.prefix}ʀᴀɴᴋ
+╚══════════════════.✾.
+❅───✧ ✦ ✧───❅
+📬 ɴᴏᴛᴇ: ᴜꜱᴇ ${this.client.config.prefix}ʜᴇʟᴘ <ᴄᴏᴍᴍᴀɴᴅ_ɴᴀᴍᴇ> ᴛᴏ ᴠɪᴇᴡ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅ ɪɴꜰᴏ.
+❅───✧ ✦ ✧───❅
 
  `,
 			}
