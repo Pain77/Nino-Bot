@@ -27,7 +27,9 @@ export default class Command extends BaseCommand {
 	        return void this.client.sendMessage(
 			M.from,
 			{ url: nino },
-				MessageType.video,
+			MessageType.video,
+			{
+			        quoted: M.WAMessage,
 				Mimetype.gif,
 				M.groupMetadata?.participants.map((user) => user.jid)
 		));	
