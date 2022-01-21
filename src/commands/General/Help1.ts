@@ -9,7 +9,7 @@ import { ISimplifiedMessage } from "../../typings";
 export default class Command extends BaseCommand {
 	constructor(client: WAClient, handler: MessageHandler) {
 		super(client, handler, {
-			command: "help2",
+			command: "help1",
 			description: "Displays the info",
 			category: "general",
 			usage: `${client.config.prefix}nino`,
@@ -20,7 +20,7 @@ export default class Command extends BaseCommand {
 
 	run = async (M: ISimplifiedMessage): Promise<void> => {
 		const nino = 
-			"https://c.tenor.com/0KSyqTDyiEIAAAPo/rider-saber-alter.mp4";
+			"https://c.tenor.com/OtyaArRiEJEAAAPo/ninogod-nino-nakano.mp4";
 		return void this.client.sendMessage(
 			M.from,
 			{ url: nino },
