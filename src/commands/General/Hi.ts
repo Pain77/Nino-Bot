@@ -25,7 +25,7 @@ export default class Command extends BaseCommand {
 			{
 				quoted: M.WAMessage,
 				mimetype: Mimetype.gif,
-				caption: `*_"𝙀𝙝𝙚𝙚!!" "𝙀𝙝𝙚𝙚!!" 💝_*`,
+				caption: `*_𝘽𝙮𝙚-𝙗𝙮𝙚! _*`,
 		    }
 		);
 	};
