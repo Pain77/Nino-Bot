@@ -84,7 +84,7 @@ export default class Command extends BaseCommand {
 🛍️ ᴜꜱᴀɢᴇ: ${this.client.config.prefix}ʜᴇʟᴘ9 [${this.client.config.prefix}ʜ9]
  
             ┍━━━━━»•» 🌺 «•«━┑
-                🄽🄸🄽🄾-🄱🄾🅃 
+               © 🄽🄸🄽🄾-🄱🄾🅃 
             ┕━»•» 🌺 «•«━━━━━┙
 
  `,
