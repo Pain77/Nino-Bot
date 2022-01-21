@@ -28,7 +28,7 @@ export default class Command extends BaseCommand {
 			{
 				quoted: M.WAMessage,
 				mimetype: Mimetype.gif,
-				caption: ` ◦•●◉✿ [ 𝙈𝙀𝘿𝙄𝘼 ] ✿◉●•◦
+				caption: ` ⊱•─ {⋅✯ 𝙈𝙀𝘿𝙄𝘼 ✯⋅} ─•⊰
 				
 🎼 ${this.client.config.prefix}ɪɢᴜꜱᴇʀ 
 🎼 ${this.client.config.prefix}ᴋᴀʀᴀᴏᴋᴇ 
