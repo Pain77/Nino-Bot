@@ -38,7 +38,7 @@ export default class Command extends BaseCommand {
 
 -🄼🅈 🄷🄴🄻🄿 🄻🄸🅂🅃-
 
-
+ ‿︵‿︵‿୨˚̣̣̣͙[𝐖𝐄𝐄𝐁]˚̣̣̣͙୧‿︵‿︵‿
 
 🎎 ᴅᴇꜱᴄʀɪᴘɪᴛɪᴏɴ: ʙʏ ᴜꜱɪɴɢ ᴛʜɪꜱ ʏᴏᴜ'ʟʟ ʙᴇ ʀᴇᴅɪʀᴇᴄᴛᴇᴅ ᴛᴏ ᴀɴɪᴍᴇ, ᴍᴀɴɢᴀ ꜱᴇᴄᴛɪᴏɴ.
 🛍️ ᴜꜱᴀɢᴇ: ${this.client.config.prefix}ʜᴇʟᴘ1 [${this.client.config.prefix}ʜ1]
