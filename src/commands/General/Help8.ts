@@ -28,7 +28,8 @@ export default class Command extends BaseCommand {
 			{
 				quoted: M.WAMessage,
 				mimetype: Mimetype.gif,
-				caption: `╔═.✾. ❝ [ 𝙉𝙎𝙁𝙒 ] ❞ ═════
+				caption: ` ‿︵‿︵‿୨˚̣̣̣͙[𝐍𝐒𝐅𝐖]˚̣̣̣͙୧‿︵‿︵‿
+				
 🔞 ${this.client.config.prefix}ᴀɴᴀʟ 
 🔞 ${this.client.config.prefix}ʙʟᴏᴡᴊᴏʙ 
 🔞 ${this.client.config.prefix}ʜꜱᴇᴀʀᴄʜ 
@@ -43,11 +44,10 @@ export default class Command extends BaseCommand {
 🔞 ${this.client.config.prefix}ᴘᴜꜱꜱʏ 
 🔞 ${this.client.config.prefix}ʀʜᴇɴᴛᴀɪ 
 🔞 ${this.client.config.prefix}ᴛʜɪɢʜꜱ
-╚══════════════════.✾.
 
-❅───✧ ✦ ✧───❅
+❅───────✧ ✦ ✧───────❅
 📬 ɴᴏᴛᴇ: ᴜꜱᴇ ${this.client.config.prefix}ʜᴇʟᴘ <ᴄᴏᴍᴍᴀɴᴅ_ɴᴀᴍᴇ> ᴛᴏ ᴠɪᴇᴡ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅ ɪɴꜰᴏ.
-❅───✧ ✦ ✧───❅
+❅───────✧ ✦ ✧───────❅
 
  `,
 			}
