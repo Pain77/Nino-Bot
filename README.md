@@ -28,7 +28,7 @@ A Fully Modular and Efficient Bot <br>
 
 
 
-<div align="left">
+<div align="center">
 <br/>
 
 ## ✨ Highlights
