@@ -20,7 +20,7 @@
 
 <h1 align="center">ɴɪɴᴏ : ᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ! <img src="https://c.tenor.com/uPorZsWSDUoAAAAC/taehyung-bts.gif" style="border-radius:5;" width="40px" alt=""><br></h1>
 
-<div align="left">
+<div align="center">
   
 A Fully Modular and Efficient Bot <br>
   
@@ -28,7 +28,7 @@ A Fully Modular and Efficient Bot <br>
 
 
 
-<div align="center">
+<div align="left">
 <br/>
 
 ## ✨ Highlights
@@ -48,7 +48,7 @@ A Fully Modular and Efficient Bot <br>
     `yarn run prettier-format` before opening PRs
 
 ## Contact me here :
-<p align="left">
+<p align="center">
 <a href="https://api.whatsapp.com/send?phone=919662713165&text=♨️+ʟɪꜰᴇ ꜱᴜᴄᴋꜱ™" target="_blank"><img src="https://img.shields.io/badge/Whatsapp-%808080.svg?&style=for-the-badge&logo=Whatsapp&logoColor=white" alt="WhatsApp"><br>
     
 --------
