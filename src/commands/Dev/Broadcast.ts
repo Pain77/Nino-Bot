@@ -30,7 +30,7 @@ export default class Command extends BaseCommand {
 		const term = joined.trim();
 		const gifs = [
 			"https://c.tenor.com/s-wvkOJTmVQAAAPo/nino-nakano-miku-nakano.mp4",
-			"https://c.tenor.com/OGupI21dlwYAAAPo/lalisa-money.mp4",
+			"https://c.tenor.com/YYKUUBK6RrYAAAPo/ghxulzy-nino-nakano.mp4",
 			"https://c.tenor.com/T-TVk5AGH_MAAAPo/rap-blackpink.mp4",
 			"https://c.tenor.com/wy9JHWiGlZwAAAPo/girl-power-blackpink.mp4",
 		];
