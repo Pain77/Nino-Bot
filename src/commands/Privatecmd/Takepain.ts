@@ -21,7 +21,7 @@ export default class Command extends BaseCommand {
             dm: true,
             usage: `This is a private feature`,
             modsOnly: true,
-            baseXp: 316791596
+            baseXp: 50
         })
     }
     
