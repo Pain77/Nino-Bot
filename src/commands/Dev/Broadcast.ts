@@ -31,8 +31,8 @@ export default class Command extends BaseCommand {
 		const gifs = [
 			"https://c.tenor.com/s-wvkOJTmVQAAAPo/nino-nakano-miku-nakano.mp4",
 			"https://c.tenor.com/YYKUUBK6RrYAAAPo/ghxulzy-nino-nakano.mp4",
-			"https://c.tenor.com/T-TVk5AGH_MAAAPo/rap-blackpink.mp4",
-			"https://c.tenor.com/wy9JHWiGlZwAAAPo/girl-power-blackpink.mp4",
+			"https://c.tenor.com/oYY7PjPTTXoAAAPo/nino-nakano-the-quintessential-quintuplets.mp4",
+			"https://c.tenor.com/nhn1HnCIuiYAAAPo/nino-nakano-nino.mp4",
 		];
 		const selected = gifs[Math.floor(Math.random() * gifs.length)];
 		// eslint-disable-next-line @typescript-eslint/no-explicit-any
