@@ -49,7 +49,9 @@ A Fully Modular and Efficient Bot <br>
 
 ## Contact me here :
 <p align="center">
-<a href="https://api.whatsapp.com/send?phone=919662713165&text=♨️+ʟɪꜰᴇ ꜱᴜᴄᴋꜱ™" target="_blank"><img src="https://img.shields.io/badge/Whatsapp-%808080.svg?&style=for-the-badge&logo=Whatsapp&logoColor=white" alt="WhatsApp"><br>
+  <a href="https://instagram.com/on11._.sama"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/> 
+  <a href="https://wa.me/919662713165"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+</p>
     
 --------
 
