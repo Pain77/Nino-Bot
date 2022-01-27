@@ -24,7 +24,7 @@ export default class Command extends BaseCommand {
                 const text = `_*🎀Nino:*_  ${response.data.success}`
                 M.reply(text);
             }).catch(err => {
-                M.reply(`_*YADOM 🌸*_`)
+                M.reply(`_*NANI ⁉️*_`)
             }
             )
     };
