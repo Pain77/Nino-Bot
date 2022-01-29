@@ -12,7 +12,8 @@ export default class Command extends BaseCommand {
 			command: "help4",
 			description: "Displays the info",
 			category: "general",
-			usage: `${client.config.prefix}kacchan`,
+			usage: `${client.config.prefix}nino`,
+			adminOnly: true,
 		        dm: true,
                         aliases: ['h4','?4','menu4']
 		});
