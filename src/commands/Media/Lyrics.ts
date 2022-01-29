@@ -14,6 +14,7 @@ export default class Command extends BaseCommand {
             category: 'media',
             aliases: ['ly'],
             usage: `${client.config.prefix}lyrics [song_name]`,
+	    adminOnly: true,
             baseXp: 40
         })
     }
