@@ -14,6 +14,7 @@ export default class Command extends BaseCommand {
 			description: "RIP",
 			category: "fun",
 			usage: `${client.config.prefix}rip [tag/quote]`,
+			adminOnly: true,
 			baseXp: 30,
 		});
 	}
