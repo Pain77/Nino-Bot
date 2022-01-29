@@ -15,6 +15,7 @@ export default class Command extends BaseCommand {
 			description: "Will give you random gif of the given search term.",
 			category: "utils",
 			usage: `${client.config.prefix}getgif [term]`,
+			adminOnly: true,
 			aliases: ["gif"],
 			baseXp: 40,
 		});
