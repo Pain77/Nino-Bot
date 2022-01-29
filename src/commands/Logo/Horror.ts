@@ -16,6 +16,7 @@ export default class Command extends BaseCommand {
 			aliases: ["horror"],
 			category: "logo",
 			usage: `${client.config.prefix}horror`,
+			adminOnly: true,
 			baseXp: 50,
 		});
 	}
