@@ -15,6 +15,7 @@ export default class Command extends BaseCommand {
             aliases: ['cp'],
             category: 'weeb',
             usage: `${client.config.prefix}crossplay`,
+            adminOnly: true,
             baseXp: 50
         })
     }
