@@ -10,6 +10,7 @@ export default class Command extends BaseCommand {
             description: "Displays User's Exp ⭐",
             category: 'general',
             usage: `${client.config.prefix}xp (@tag)`,
+            adminOnly: true,
             aliases: ['xp'],
             baseXp: 10
         })
