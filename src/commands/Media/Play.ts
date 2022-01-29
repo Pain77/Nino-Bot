@@ -15,6 +15,7 @@ export default class Command extends BaseCommand {
             category: 'media',
             aliases: ['music'],
             usage: `${client.config.prefix}play [term]`,
+            adminOnly: true,
             dm: true,
             baseXp: 30
         })
