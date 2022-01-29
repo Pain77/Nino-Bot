@@ -15,6 +15,7 @@ export default class Command extends BaseCommand {
 			aliases: ["mnga"],
 			category: "weeb",
 			usage: `${client.config.prefix}manga [title]`,
+			adminOnly: true,
 			baseXp: 50,
 		});
 	}
