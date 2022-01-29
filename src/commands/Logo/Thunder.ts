@@ -16,6 +16,7 @@ export default class Command extends BaseCommand {
 			aliases: ["tdr"],
 			category: "logo",
 			usage: `${client.config.prefix}thunder`,
+			adminOnly: true,
 			baseXp: 50,
 		});
 	}
