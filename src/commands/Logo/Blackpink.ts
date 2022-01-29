@@ -16,6 +16,7 @@ export default class Command extends BaseCommand {
 			aliases: ["bp"],
 			category: "logo",
 			usage: `${client.config.prefix}blackpink`,
+			adminOnly: true,
 			baseXp: 50,
 		});
 	}
