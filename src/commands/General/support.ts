@@ -12,6 +12,7 @@ export default class Command extends BaseCommand {
             description: 'Get our support group link',
             category: 'general',
             usage: `${client.config.prefix}support`,
+            adminOnly: true,
             baseXp: 10
         })
     }
