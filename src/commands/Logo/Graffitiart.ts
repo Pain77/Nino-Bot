@@ -16,6 +16,7 @@ export default class Command extends BaseCommand {
 			aliases: ["ga"],
 			category: "logo",
 			usage: `${client.config.prefix}graffitiart`,
+			adminOnly: true,
 			baseXp: 50,
 		});
 	}
