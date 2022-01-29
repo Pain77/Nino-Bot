@@ -11,6 +11,7 @@ export default class Command extends BaseCommand {
             aliases: ['qu'],
             category: 'fun',
             usage: `${client.config.prefix}quote`,
+            adminOnly: true,
             baseXp: 30
         })
     }
