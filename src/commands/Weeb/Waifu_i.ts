@@ -15,6 +15,7 @@ export default class Command extends BaseCommand {
             description: 'Get waifu images with details',
             category: 'weeb',
             usage: `${client.config.prefix}infowaifu`,
+            adminOnly: true,
             
         })
     }
