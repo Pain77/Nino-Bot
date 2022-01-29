@@ -16,6 +16,7 @@ export default class Command extends BaseCommand {
 			aliases: ["wpaper"],
 			category: "weeb",
 			usage: `${client.config.prefix}wallpaper [term]`,
+			adminOnly: true,
 			baseXp: 20,
 		});
 	}
