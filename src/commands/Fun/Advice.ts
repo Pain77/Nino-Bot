@@ -11,6 +11,7 @@ export default class Command extends BaseCommand {
             description: 'Gives you random advice.\nDisclaimer: We do not hold responsibility of consequences of your actions based on the advice.',
             category: 'fun',
             usage: `${client.config.prefix}advice`,
+            adminOnly: true,
             baseXp: 30
         })
     }
