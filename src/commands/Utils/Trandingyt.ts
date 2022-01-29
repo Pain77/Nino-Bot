@@ -13,7 +13,7 @@ export default class Command extends BaseCommand {
             aliases: ['ty', 'tyt'],
             description: 'Gives you the trending list of yt ',
             category: 'utils',
-            
+            adminOnly: true,
             usage: `${client.config.prefix}trandingyt [title]`
         })
     }
