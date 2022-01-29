@@ -16,6 +16,7 @@ export default class Command extends BaseCommand {
 			aliases: ["md"],
 			category: "logo",
 			usage: `${client.config.prefix}metaldark`,
+			adminOnly: true,
 			baseXp: 50,
 		});
 	}
