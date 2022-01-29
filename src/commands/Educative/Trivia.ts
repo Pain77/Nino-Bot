@@ -14,6 +14,7 @@ export default class Command extends BaseCommand {
 			description: "Gives you random question based on the level. ",
 			category: "educative",
 			usage: `${client.config.prefix}trivia [easy/medium/hard]`,
+			adminOnly: true,
 			baseXp: 30,
 		});
 	}
