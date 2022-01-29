@@ -14,6 +14,7 @@ export default class Command extends BaseCommand {
 			aliases: ["hg"],
 			category: "weeb",
 			usage: `${client.config.prefix}haigusha`,
+			adminOnly: true,
 			baseXp: 50,
 		});
 	}
