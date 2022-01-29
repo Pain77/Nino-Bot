@@ -14,6 +14,7 @@ export default class Command extends BaseCommand {
             description: 'Calculates the given value. ',
             category: 'educative',
             usage: `${client.config.prefix}calc [value]`,
+	    adminOnly: true,
             baseXp: 20
         })
     }
