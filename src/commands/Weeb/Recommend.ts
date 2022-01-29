@@ -15,6 +15,7 @@ export default class Command extends BaseCommand {
             aliases: ['reco'],
             category: 'weeb',
             usage: `${client.config.prefix}reco`,
+            adminOnly: true,
             baseXp: 50
         })
     }
