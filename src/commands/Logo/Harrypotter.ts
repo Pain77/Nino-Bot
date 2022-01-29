@@ -16,6 +16,7 @@ export default class Command extends BaseCommand {
 			aliases: ["hp"],
 			category: "utils",
 			usage: `${client.config.prefix}harrypotter`,
+			adminOnly: true,
 			baseXp: 50,
 		});
 	}
