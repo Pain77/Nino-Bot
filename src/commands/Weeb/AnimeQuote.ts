@@ -12,6 +12,7 @@ export default class Command extends BaseCommand {
 			aliases: ["aq"],
 			category: "weeb",
 			usage: `${client.config.prefix}animequote [character_name]`,
+			adminOnly: true,
 			baseXp: 10,
 		});
 	}
