@@ -15,6 +15,7 @@ export default class Command extends BaseCommand {
             aliases: ['foxgirl'],
             category: 'weeb',
             usage: `${client.config.prefix}kitsune `,
+            adminOnly: true,
             baseXp: 50
         })
     }
