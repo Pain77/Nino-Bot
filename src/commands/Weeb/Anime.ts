@@ -15,6 +15,7 @@ export default class Command extends BaseCommand {
 			aliases: ["ani", "a"],
 			category: "weeb",
 			usage: `${client.config.prefix}anime [title]`,
+			adminOnly: true,
 			baseXp: 50,
 		});
 	}
