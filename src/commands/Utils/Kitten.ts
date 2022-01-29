@@ -15,6 +15,7 @@ export default class Command extends BaseCommand {
             aliases: ['cat'],
             category: 'utils',
             usage: `${client.config.prefix}kitten `,
+            adminOnly: true,
             baseXp: 50
         })
     }
