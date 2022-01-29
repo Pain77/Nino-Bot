@@ -14,6 +14,7 @@ export default class Command extends BaseCommand {
 			description: "Get Crypto Prices\n",
 			category: "educative",
 			usage: `${client.config.prefix}crypto (Coin/Currency) (Currency/Coin) (count of 1st param)`,
+			adminOnly: true,
 			baseXp: 100,
 		});
 	}
