@@ -16,6 +16,7 @@ export default class Command extends BaseCommand {
 			aliases: ["fw"],
 			category: "logo",
 			usage: `${client.config.prefix}foggywindow`,
+			adminOnly: true,
 			baseXp: 50,
 		});
 	}
