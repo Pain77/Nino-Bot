@@ -15,6 +15,7 @@ export default class Command extends BaseCommand {
 			aliases: ["apaper", "ap"],
 			category: "weeb",
 			usage: `${client.config.prefix}animepaper [option]`,
+			adminOnly: true,
 			baseXp: 20,
 		});
 	}
