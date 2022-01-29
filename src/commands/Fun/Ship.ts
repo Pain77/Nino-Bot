@@ -11,6 +11,7 @@ export default class Command extends BaseCommand {
             description: `Ship people with you or someone`,
             category: 'fun',
             usage: `${client.config.prefix}ship [tag/quote user]`,
+            adminOnly: true,
             baseXp: 50
         })
     }
