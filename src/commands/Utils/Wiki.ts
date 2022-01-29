@@ -14,6 +14,7 @@ export default class Command extends BaseCommand {
 			description: "Will fetch the result of the given query from wikipedia. ",
 			category: "utils",
 			usage: `${client.config.prefix}wiki [query]`,
+			adminOnly: true,
 			baseXp: 20,
 		});
 	}
