@@ -12,6 +12,7 @@ export default class Command extends BaseCommand {
             aliases: ['facts'],
             category: 'fun',
             usage: `${client.config.prefix}fact`,
+            adminOnly: true,
             baseXp: 30
         })
     }
