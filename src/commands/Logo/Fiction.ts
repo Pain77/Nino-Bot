@@ -16,6 +16,7 @@ export default class Command extends BaseCommand {
 			aliases: ["fn"],
 			category: "logo",
 			usage: `${client.config.prefix}fiction`,
+			adminOnly: true,
 			baseXp: 50,
 		});
 	}
