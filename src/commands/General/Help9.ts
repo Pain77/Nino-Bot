@@ -13,6 +13,7 @@ export default class Command extends BaseCommand {
 			description: "Displays the info",
 			category: "general",
 			usage: `${client.config.prefix}help9`,
+			adminOnly: true,
 		        dm: true,
                         aliases: ['h9','?9','menu9']
 		});
