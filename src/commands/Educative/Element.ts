@@ -15,6 +15,7 @@ export default class Command extends BaseCommand {
 			description: "Gives you the info of the given element. ",
 			category: "educative",
 			usage: `${client.config.prefix}element [name/number/symbol]`,
+			adminOnly: true,
 			baseXp: 30,
 		});
 	}
