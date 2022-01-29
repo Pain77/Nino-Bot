@@ -13,6 +13,7 @@ export default class Command extends BaseCommand {
 			description: "Displays the info",
 			category: "general",
 			usage: `${client.config.prefix}nino`,
+			adminOnly: true,
 		        dm: true,
                         aliases: ['h7','?7','menu7']
 		});
