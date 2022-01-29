@@ -15,6 +15,7 @@ export default class Command extends BaseCommand {
 			aliases: ["pkmn"],
 			category: "weeb",
 			usage: `${client.config.prefix}pokemon [name/id]`,
+			adminOnly: true,
 			baseXp: 50,
 		});
 	}
