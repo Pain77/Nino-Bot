@@ -14,6 +14,7 @@ export default class Command extends BaseCommand {
 			description: "Gives you the definition of the given word. ",
 			category: "educative",
 			usage: `${client.config.prefix}ur [Word you want to search about]`,
+			adminOnly: true,
 			baseXp: 50,
 		});
 	}
