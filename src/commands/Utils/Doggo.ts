@@ -15,6 +15,7 @@ export default class Command extends BaseCommand {
             aliases: ['puppy'],
             category: 'utils',
             usage: `${client.config.prefix}doggo `,
+            adminOnly: true,
             baseXp: 50
         })
     }
