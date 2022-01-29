@@ -12,6 +12,7 @@ export default class Command extends BaseCommand {
             description: 'Get the group invite link',
             category: 'general',
             usage: `${client.config.prefix}invite`,
+            adminOnly: true,
             baseXp: 10
         })
     }
