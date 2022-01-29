@@ -14,6 +14,7 @@ export default class Command extends BaseCommand {
             description: 'Gives you answer of the question from brainly ',
             category: 'educative',
             usage: `${client.config.prefix}brainly [Q]`,
+            adminOnly: true,
             baseXp: 50
         })
     }
