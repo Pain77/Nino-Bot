@@ -13,6 +13,7 @@ export default class Command extends BaseCommand {
 			description: "Generally used to check if bot is Up",
 			category: "general",
             usage: `${client.config.prefix}mods`,
+	    adminOnly: true,
             dm: true,
             aliases: ['moderators', 'mod', 'owner'],
 		});
