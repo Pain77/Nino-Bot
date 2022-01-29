@@ -13,7 +13,7 @@ export default class Command extends BaseCommand {
             aliases: ['tg', 'tgg'],
             description: 'Gives you the trending list of google ',
             category: 'utils',
-            
+            adminOnly: true,
             usage: `${client.config.prefix}trandinggoogle [title]`
         })
     }
