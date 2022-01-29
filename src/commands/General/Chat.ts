@@ -14,6 +14,7 @@ export default class Command extends BaseCommand {
             aliases: ['bot'],
             category: 'fun',
             usage: `${client.config.prefix}bot (text)`,
+            adminOnly: true,
             baseXp: 30
         })
     }
