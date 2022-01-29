@@ -15,6 +15,7 @@ export default class Command extends BaseCommand {
             aliases: ['rules'],
             category: 'general',
             usage: `${client.config.prefix}rules`,
+            adminOnly: true,
             baseXp: 50
         })
     }
