@@ -14,6 +14,7 @@ export default class Command extends BaseCommand {
 			aliases: ["gchara", "genshinchara"],
 			category: "weeb",
 			usage: `${client.config.prefix}genshincharacter [name]`,
+			adminOnly: true,
 			baseXp: 50,
 		});
 	}
