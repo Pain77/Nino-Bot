@@ -14,6 +14,7 @@ export default class Command extends BaseCommand {
 			description: "Will make the given image shape to circle",
 			category: "fun",
 			usage: `${client.config.prefix}circle [(as caption | quote)[image] | @mention]`,
+			adminOnly: true,
 			baseXp: 30,
 		});
 	}
