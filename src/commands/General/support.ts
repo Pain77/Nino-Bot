@@ -17,6 +17,9 @@ export default class Command extends BaseCommand {
     }
 
     run = async (M: ISimplifiedMessage): Promise<void> => {
+        const n = [
+            './assets/supp.jpg'
+        ]
 
 await this.client.sendMessage( M.sender.jid,`*NINO'S SUPPORT GROUP 🌸*
 
