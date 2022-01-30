@@ -14,7 +14,6 @@ export default class Command extends BaseCommand {
 			description: "Search on the web ",
 			category: "utils",
 			usage: `${client.config.prefix}google [query]`,
-			adminOnly: true,
 			baseXp: 10,
 		});
 	}
