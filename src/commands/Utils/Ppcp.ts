@@ -14,7 +14,6 @@ export default class Command extends BaseCommand {
             aliases: ['matchpfp','pp'],
             category: 'utils',
             usage: `${client.config.prefix}pp`,
-            adminOnly: true,
             baseXp: 50
         })
     }
