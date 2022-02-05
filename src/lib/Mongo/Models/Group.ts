@@ -12,7 +12,7 @@ const GroupSchema = new Schema({
     events: {
         type: Boolean,
         required: false,
-        default: true
+        default: false
     },
     // whether to allow nsfw commands for this group.
     nsfw: {
