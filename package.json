@@ -18,12 +18,13 @@
         "bot",
         "typescript",
         "whatsapp",
-        "chitoge"
+        "nino",
+        "quintessential-quintuplets"
     ],
     "author": "Synthesized Infinity & ░P░A░I░N░",
     "license": "AGPL-3.0",
     "bugs": {
-        "url": "https://github.com/ShineiIchijo/Chitoge/issues"
+        "url": "https://github.com/Pain77/Nino-Bot/issues"
     },
     "homepage": "https://github.com/Pain77/Nino-Bot#readme",
     "devDependencies": {
