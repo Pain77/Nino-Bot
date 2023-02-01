@@ -76,7 +76,7 @@
         "mangadex-full-api": "^5.7.0",
         "mathjs": "^10.0.0",
         "moment": "^2.29.1",
-        "mongoose": "^5.12.12",
+        "mongoose": "^5.13.15",
         "mywaifulist-scraper": "^0.0.1",
         "node-cron": "^3.0.0",
         "node-fetch": "^3.0.0",
